@@ -1,0 +1,203 @@
+/* Style untuk body */
+body {
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk container form */
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100; /* Lebar maksimum kontainer form */
+    max-width: 500px;
+} 
+
+
+.container2 {
+    margin-top : 0px;
+    position: absolute;
+    top: 0px; /* Jarak dari atas */
+    right: 20px; /* Jarak dari kanan */
+    transform: none; /* Tidak perlu lagi menggunakan translate */
+    width: 10%; /* Lebar maksimum kontainer form */
+    max-height: 20%;
+    max-width: 500px;
+}
+
+
+/* Style untuk login form */
+.login-form {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width:max-content
+}
+
+.inputlogin{
+    margin: 5px;
+}  
+
+.login-input form {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100% ;
+    max-width: 200px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Style untuk heading */
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Style untuk input field */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: #ff004c1f; /* Warna latar belakang */
+    color: #ffffff;
+}
+
+.inputlogin input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: #ff004c1f; /* Warna latar belakang */
+    color: #ffffff;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: #ff004c1f; /* Warna latar belakang */
+    color: #ffffff;
+}
+
+
+.element-input {
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    width: 80% ;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Style untuk tombol submit */
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    
+}
+
+/* Style untuk tombol login */
+.button-login {
+    color: #b1b1b1;
+    width: 100%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0);
+    border-color: #ffffff;
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+
+.button-login:hover {
+    background: rgba(255, 255, 255, 0.719);
+    color: #000;
+    transition : 0.2s ease-in-out;
+}
+
+/* Style untuk tombol logout */
+.button-logout {
+    color: #b1b1b1;
+    width: 100%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0);
+    border-color: #ffffff;
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+
+.button-logout:hover {
+    background: rgba(255, 255, 255, 0.774);
+    color: black;
+    transition : 0.2s ease-in-out;
+}
+
+.notifikasi {
+    padding: 10px;
+    background: rgba(244, 66, 119, 0.5);
+    border-radius: 3px;
+    margin: 0;
+    
+}
+
+/* Style untuk label dan error */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.user {
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+/* Style untuk spacing antar elemen */
+br {
+    margin-bottom: 5px;
+}
